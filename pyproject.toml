@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "hospital-backend"
+name = "hospital"
 version = "0.1.0"
 description = ""
-authors = ["Yeldar Issa <yeldar.issa@gmail.com>"]
+authors = ["Temirlan Primtayev <temirlanprimtayev@gmail.com>"]
 readme = "README.md"
-
 [tool.poetry.dependencies]
 setuptools = "65.5.1"
 python = "^3.7"
@@ -13,8 +12,6 @@ dj-database-url = "^1.0.0"
 psycopg2-binary = "^2.9.5"
 whitenoise = {extras = ["brotli"], version = "^6.2.0"}
 gunicorn = "^20.1.0"
-
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
