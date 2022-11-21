@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hospital"
+name = "hospital-servise"
 version = "0.1.0"
 description = ""
 authors = ["Temirlan Primtayev <temirlanprimtayev@gmail.com>"]
