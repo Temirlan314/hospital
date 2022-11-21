@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://admin:8lJJU5hHrcJMi6uu2EWze09GwI4kqHz3@dpg-cdrilata49909bk3tcd0-a/hospital_cz6w')
+    'default': dj_database_url.config(default='postgres://temirlan:DE4eXWfyDOjNoqo5JF2WjDrD8sTs7QlC@dpg-cdtfkbo2i3mrfoh2itvg-a/hospital_nzbs')
 }
 
 
