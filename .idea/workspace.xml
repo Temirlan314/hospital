@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf40364a-00f5-476d-8e68-b8091f77d747" name="Changes" comment="build.sh fix">
+    <list default="true" id="bf40364a-00f5-476d-8e68-b8091f77d747" name="Changes" comment="new db url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <list id="7c41e2e9-7a6d-4de2-b553-494fa7fc1a3f" name="revert " comment="revert" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,7 @@
       <updated>1669006649194</updated>
       <workItem from="1669006651227" duration="408000" />
       <workItem from="1669007077667" duration="9253000" />
-      <workItem from="1669030106317" duration="1238000" />
+      <workItem from="1669030106317" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="database settings">
       <created>1669007600967</created>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669030995775</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new db url">
+      <created>1669031362014</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669031362014</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +213,7 @@
     <MESSAGE value="resetting project" />
     <MESSAGE value="rewirting some stuff" />
     <MESSAGE value="build.sh fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="build.sh fix" />
+    <MESSAGE value="new db url" />
+    <option name="LAST_COMMIT_MESSAGE" value="new db url" />
   </component>
 </project>
