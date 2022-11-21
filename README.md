@@ -1,4 +1,13 @@
 # hospital
 
-pip3 install -r requirements.txt
-python3 manage.py runserver
+Requirements: poetry
+
+To run the app:
+
+pipenv install
+
+pipenv shell
+
+./build.sh
+
+gunicorn mysite.wsgi:application
