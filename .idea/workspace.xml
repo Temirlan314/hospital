@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf40364a-00f5-476d-8e68-b8091f77d747" name="Changes" comment="rewirting some stuff">
+    <list default="true" id="bf40364a-00f5-476d-8e68-b8091f77d747" name="Changes" comment="build.sh fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <list id="7c41e2e9-7a6d-4de2-b553-494fa7fc1a3f" name="revert " comment="revert" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       <updated>1669006649194</updated>
       <workItem from="1669006651227" duration="408000" />
       <workItem from="1669007077667" duration="9253000" />
-      <workItem from="1669030106317" duration="861000" />
+      <workItem from="1669030106317" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="database settings">
       <created>1669007600967</created>
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669030751378</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="build.sh fix">
+      <created>1669030995775</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669030995775</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +207,7 @@
     <MESSAGE value="url change to internal" />
     <MESSAGE value="resetting project" />
     <MESSAGE value="rewirting some stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewirting some stuff" />
+    <MESSAGE value="build.sh fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.sh fix" />
   </component>
 </project>

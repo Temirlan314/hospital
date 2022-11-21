@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ.get('SECRET_KEY', default='django-insecure-0=+g+1!o-(14li0$9q2a+rfon=&fwo+g_vuo^$zknc!86t6ax+')
+SECRET_KEY = os.environ.get('SECRET_KEY', default='django-insecure-0=+g+1!o-(14li0$9q2a+rfon=&fwo+g_vuo^$zknc!86t6ax+as')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://temirlan:DE4eXWfyDOjNoqo5JF2WjDrD8sTs7QlC@dpg-cdtfkbo2i3mrfoh2itvg-a/hospital_nzbs')
+    'default': dj_database_url.config(default='postgres://temirlan:VHTS1GQGaIaC6VgC199CPFNVWM5zA2RE@dpg-cdtm9r02i3mrfohem1i0-a/hospital_yt2o')
 }
 
 
