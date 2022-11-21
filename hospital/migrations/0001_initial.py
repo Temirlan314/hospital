@@ -48,7 +48,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Users',
+            name='User',
             fields=[
                 ('name', models.CharField(max_length=30)),
                 ('surname', models.CharField(max_length=40)),
@@ -75,7 +75,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Doctor',
             fields=[
-                ('email', models.OneToOneField(db_column='email', on_delete=django.db.models.deletion.DO_NOTHING, primary_key=True, serialize=False, to='hospital.users')),
+                ('email', models.OneToOneField(db_column='email', on_delete=django.db.models.deletion.DO_NOTHING, primary_key=True, serialize=False, to='hospital.user')),
                 ('degree', models.CharField(blank=True, max_length=20, null=True)),
             ],
             options={
@@ -86,7 +86,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='PublicServant',
             fields=[
-                ('email', models.OneToOneField(db_column='email', on_delete=django.db.models.deletion.DO_NOTHING, primary_key=True, serialize=False, to='hospital.users')),
+                ('email', models.OneToOneField(db_column='email', on_delete=django.db.models.deletion.DO_NOTHING, primary_key=True, serialize=False, to='hospital.user')),
                 ('department', models.CharField(blank=True, max_length=50, null=True)),
             ],
             options={
